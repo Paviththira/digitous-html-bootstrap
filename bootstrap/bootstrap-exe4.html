@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <style>
+        .rounded-circle {
+            height: 200px;
+            width: 30%;
+            border-radius: 50%;
+            float: left;
+            overflow: hidden;
+            margin-left: 300px;
+            margin-bottom: 30px;
+            margin-top: 50px;
+
+        }
+
+        .margin-top-50 {
+            margin-top: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand text-white" href="#">HomePage</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link  text-white" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Team
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item  text-white" href="#">Vincent</a>
+                        <a class="dropdown-item text-white" href="#">Béatrice</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item  text-white" href="#">Rosita</a>
+                    </div>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link  text-white" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row" style="background-color: #dedede  ;">
+            <div class=" col-md-6 col-sm-6">
+                <h1>
+                    Hey! My Name is!
+                </h1>
+            </div>
+            <div class=" col-md-6 col-sm-6">
+                <img class="rounded-circle" src="./image/eminem.jpg" alt="">
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-md-3 col-sm-3">
+                    <h3>Slim Shady</h3>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-3 margin-top-50">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#newsLetterModel">Signup newsletter</button>
+            </div>
+
+
+        </div>
+
+
+        <div class=" row margin-top-50 justify-content-center">
+            <div class="col col-md-3">
+                <h4>
+                    Planification
+                </h4>
+                <p> Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page
+                    avant
+                    impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années
+                    1500, quand
+                    un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre
+                    spécimen de
+                    polices de texte.
+                </p>
+            </div>
+
+            <div class="col col-md-3">
+                <h4>
+                    Action
+                </h4>
+                <p>Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page
+                    avant
+                    impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années
+                    1500, quand
+                    un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre
+                    spécimen de
+                    polices de texte.</p>
+            </div>
+
+
+            <div class="col col-md-3">
+                <h4>
+                    Analysis
+                </h4>
+                <p>Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page
+                    avant
+                    impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années
+                    1500, quand
+                    un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre
+                    spécimen de
+                    polices de texte.</p>
+            </div>
+
+
+        </div>
+
+        <div class="modal fade" tabindex="-1" id="newsLetterModel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Newsletter</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Email</span>
+                            <input type="text" class="form-control" placeholder="ex:lala@land.com" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+
+                    </div>
+                    <div class="modal-footer flex-start">
+
+                        <button type="button" class="btn btn-primary ">S'abboner</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src=" js\bootstrap.js"></script>
+        <script src="js\bootstrap.bundle.js"></script>
+        <script src="bootstrap\js\bootstrap.min.js"></script>
+</body>
+
+</html>
